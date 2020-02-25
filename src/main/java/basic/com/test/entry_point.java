@@ -10,6 +10,7 @@ public class entry_point {
 
 	public static void main(String[] args) {
 		SpringApplication.run(entry_point.class, args);
+		System.out.println("running........");
 	}
 
 	
