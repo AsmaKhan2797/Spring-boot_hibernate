@@ -9,32 +9,33 @@ public class subject_bean {
 
 	
 	@Id
-	private int s_id;
-	@Column(name="student_name")
-	private String s_name;
-	@Column(name="student_fees")
-	private String s_fees;
-	public String getS_fees() {
-		return s_fees;
+	private int sub_id;
+	@Column(name="subject_name")
+	private String sub_name;
+	@Column(name="student_id")
+	private int student_id;
+	public int getSub_id() {
+		return sub_id;
 	}
-	public void setS_fees(String s_fees) {
-		this.s_fees = s_fees;
+	public void setSub_id(int sub_id) {
+		this.sub_id = sub_id;
 	}
-	public String getS_name() {
-		return s_name;
+	public String getSub_name() {
+		return sub_name;
 	}
-	public void setS_name(String s_name) {
-		this.s_name = s_name;
+	public void setSub_name(String sub_name) {
+		this.sub_name = sub_name;
 	}
-	public int getS_id() {
-		return s_id;
+	public int getStudent_id() {
+		return student_id;
 	}
-	public void setS_id(int s_id) {
-		this.s_id = s_id;
+	public void setStudent_id(int student_id) {
+		this.student_id = student_id;
 	}
 	@Override
 	public String toString() {
-		return "student_bean [s_id=" + s_id + ", s_name=" + s_name + ", s_fees=" + s_fees + "]";
+		return "subject_bean [sub_id=" + sub_id + ", sub_name=" + sub_name + ", student_id=" + student_id + "]";
 	}
+	
 	
 }

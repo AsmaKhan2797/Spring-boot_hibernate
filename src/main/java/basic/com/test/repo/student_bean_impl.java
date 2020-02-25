@@ -1,9 +1,11 @@
-package basic.com.test.model;
+package basic.com.test.repo;
 
 import java.io.Serializable;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
+
+import basic.com.test.model.student_bean;
 @Repository
 public class student_bean_impl implements CrudRepository<student_bean, Serializable> {
 

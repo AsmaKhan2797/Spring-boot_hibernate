@@ -1,4 +1,4 @@
-package basic.com.test.model;
+package basic.com.test.repo;
 
 public class subject_bean_impl {
 

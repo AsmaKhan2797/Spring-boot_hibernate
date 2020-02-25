@@ -12,12 +12,16 @@ public class App
     @SuppressWarnings("finally")
 	public static String test() {
     	String ress="N";
+    	
+    	//int i=0;
     	try {
    		 System.out.println( "Hello World!" );
    		ress= "Y";
    		String a ="abc";
    		String ab ="ab"+"c";
    		System.out.println(a!=ab);
+   	/*	if(i) {System.out.println("true");}
+   		else {}*/
    		 return ress;
    	}
    	
