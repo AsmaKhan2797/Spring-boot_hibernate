@@ -16,7 +16,7 @@ public class entry_point{ //extends SpringBootServletInitializer {
 */
 	public static void main(String[] args) {
 		SpringApplication.run(entry_point.class, args);
-		System.out.println("running........");
+		System.out.println("running 11111........");
 		
 	}
 
